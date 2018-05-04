@@ -1,0 +1,19 @@
+{
+	"name": "DuoAuth",
+	"version": "0.9.2",
+	"author": "Steve Buck",
+	"url": "http://duosecurity.com",
+	"description": "Provides Duo Authentication for the wiki.",
+	"descriptionmsg": "duo-auth-desc",
+	"type": "specialpage",
+	"SpecialPages": {
+		"DuoAuth": "SpecialDuoAuth"
+	},
+	"ExtensionMessagesFiles": {
+		"DuoAuth": "DuoAuth.i18n.php"
+	},
+	"AutoloadClasses": {
+		"SpecialDuoAuth": "SpecialDuoAuth.php"
+	},
+	"manifest_version": 2
+}
